@@ -81,3 +81,42 @@ nav > a:hover {
 	text-decoration: underline;
 }
 
+/* Portfolio Card Styles */
+
+.card {
+	height: 500px;
+	width: 350px;
+	margin: 50px auto;
+	background-color: white;
+	background-color: #202124;
+	border-radius: 18px;
+	box-shadow: 0px 0px 42px 19px rgba(255,255,255,0.53);
+	-webkit-box-shadow: 0px 0px 42px 19px rgba(255,255,255,0.53);
+	-moz-box-shadow: 0px 0px 42px 19px rgba(255,255,255,0.53);
+}
+
+.card img {
+	width: 200px;
+	height: 200px;
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-top: 75px;
+	border-radius: 50%;
+}
+
+.card h2, h4 {
+	color: black;
+	text-align: center;
+	margin: 25px auto;
+}
+
+.card h2 {
+	font-family: Lobster, sans-serif;
+	font-size: 36px;
+}
+
+.card h4 {
+	font-size: 20px;
+	color: gray;
+}
+
