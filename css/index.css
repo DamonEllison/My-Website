@@ -77,7 +77,7 @@ nav > a{
 	
 }
 nav > a:hover {
-	color:purple;
+	text-shadow:0 0 25px gold;
 	text-decoration: underline;
 }
 .card{
@@ -102,7 +102,7 @@ nav > a:hover {
 	
 }
 .card h2, h4{
-	color:whitesmoke;
+	color:black;
 	text-align: center;
 	margin:25px auto;
 
@@ -114,6 +114,12 @@ nav > a:hover {
 	text-shadow:0 0 25px gold;
 
 }
+.card h2:hover{
+	text-shadow:0 0 25px gold;
+	color:whitesmoke;
+	cursor: pointer;
+}
+
 .card h4{
 	font-size: 20px;
 	color:grey;
