@@ -65,15 +65,18 @@ h1{
 nav{
 	border-bottom:4px solid white;
 	border-radius:50%;
-	padding-bottom:15px
-	t 
+	padding-bottom:15px;
+	display:flex;
+	justify-content:space-around;
+	
+
 
 }
 nav > a{
 	color:white;
 	text-decoration:none;
-	margin:0 25px;
 	font-family:lobster;
+	
 	
 }
 nav > a:hover {
