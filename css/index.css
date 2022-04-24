@@ -59,6 +59,11 @@ h1{
     margin:25px auto;
 	font-family:lobster;
 	text-shadow:0 0 25px gold;
+	animation-name: rainbowGlow;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate-reverse;
+
 	/* border-bottom:4px solid white;
 	border-radius:50%; */
 } 
@@ -93,7 +98,8 @@ nav > a:hover {
 	box-shadow: 0px 0px 42px 19px rgba(255,255,255,0.53);
 -webkit-box-shadow: 0px 0px 42px 19px rgba(255,255,255,0.53);
 -moz-box-shadow: 0px 0px 42px 19px rgba(255,255,255,0.53);
-	
+animation-name: fadein;
+animation-duration:2s;
 }
 .card img{
 	width:200px;
@@ -106,9 +112,8 @@ nav > a:hover {
 	box-shadow: 1px 1px 24px 1px rgba(255,255,255,0.75);
 -webkit-box-shadow: 1px 1px 24px 1px rgba(255,255,255,0.75);
 -moz-box-shadow: 1px 1px 24px 1px rgba(255,255,255,0.75);
-}
-.card img:hover{
-
+animation-name: fadein;
+animation-duration:5s;
 }
 
 .card h2, h4{
@@ -127,11 +132,13 @@ nav > a:hover {
 	text-shadow:0 0 25px gold;
 	color:whitesmoke;
 	cursor: pointer;
+
 }
 
 .card h4{
 	font-size: 20px;
 	color:grey;
+	animation: rainbowGlow 5s infinite;
 }
 .card h4:hover{
 	text-shadow:0 0 25px gold;
@@ -147,11 +154,64 @@ nav > a:hover {
 .icons a {
 	text-decoration: none;
 	color:white;
+	animation: rainbowGlow 5s infinite;
 }
 
 .icons a:hover {
 	cursor: pointer;
 	text-shadow:0 0 25px gold;
 }
+.animate__animated.animate__rubberBand {
+	animation-duration: 5s;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+
+	to {
+opacity: 1;
+	}
+}
+@keyframes rainbowGlow {
+	0% {
+color:blue;
+	}
+	25% {
+color: rgb(203, 94, 16);
+	}
+	50% {
+color: lightgreen;
+	}
+	75% {
+color: orchid
+	}
+	100% {
+color: purple;
+	}
+
+
+}
+/* animation: example 5s linear 2s infinite alternate; */
+
+/* @keyframes name_animation {
+	from {
+
+	}
+	to {
+
+	}
+
+	OR
+	
+	0% {
+
+	}
+	100% {
+		
+	}
+} */
 
 
