@@ -57,6 +57,7 @@ body{
 h1{
     text-align: center;
     margin:25px auto;
+	font-size:5rem;
 	font-family:lobster;
 	text-shadow:0 0 25px gold;
 	animation-name: rainbowGlow;
@@ -117,7 +118,7 @@ animation-duration:5s;
 }
 
 .card h2, h4{
-	color:grey;
+	color:darkseagreen;
 	text-align: center;
 	margin:25px auto;
 
@@ -194,6 +195,18 @@ color: purple;
 
 
 }
+@media (max-width: 500px) {
+	h1 { font-size: 2.5rem;
+	}
+	nav{
+		padding:15px;
+		padding-bottom:40px;
+	}
+	nav a {
+		font-size: 1.5rem;
+	}
+}
+
 /* animation: example 5s linear 2s infinite alternate; */
 
 /* @keyframes name_animation {
@@ -213,5 +226,6 @@ color: purple;
 		
 	}
 } */
+
 
 
